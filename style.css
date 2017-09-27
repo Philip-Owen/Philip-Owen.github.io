@@ -1,0 +1,104 @@
+/* Typography */
+
+/* Applies Google Fonts 'Open Sans' font to all text on page */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Applies yellow coloring to hyperlink to make it stand out from the gradient */
+a {
+  color: yellow;
+}
+
+/* Gives a bold weight to each company name and each certification vendor name */
+h4, .cert-vendor  {
+  font-weight: 600;
+}
+
+/* Gives a heavier bold weight to the Work Experience and Certification section,
+along with the name at the top of the contact section */
+.section-heading, h1, .job-date {
+  font-weight: 800;
+}
+
+/* Adds an underline to each job title */
+.job-title {
+  text-decoration: underline;
+}
+
+/* Background Gradient */
+
+/* Gradient from https://uigradients.com/ */
+/* Also applies a light gray color to the font in the contact info to help it
+stand out from the gradient */
+.main-callout {
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #d8d7d5;
+}
+
+/* Page formatting */
+/* The following entries have been used to minimize/add whitespace and additional formatting
+to give better readability to the content */
+
+/* Aligns the dates for each positon to the right side of the column */
+.job-date {
+  text-align: right;
+}
+
+/* Applies a bottom border, padding, and margin for Work Experience and Certifications */
+.section-heading {
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Applies a zero margin to h1, h4, h5 tags along with the dates for each position and Certification Vendors */
+h1, h4, h5, .job-date, .cert-vendor  {
+  margin: 0;
+}
+
+/* Applies a 10px margin to the top of h4 tags to provide some line spacing within Work Experience  */
+h4{
+  margin-top: 10px;
+}
+
+/* Reduces margin on paragraph classes within the Work Experience section */
+.job-summary {
+  margin-bottom: 5px;
+}
+
+/* Provides top and bottom margin to bring some space and declutter the top of the page  */
+.contact-info {
+  margin-bottom: 50px;
+  margin-top: 75px;
+  margin-left: 20px
+}
+
+/* Applies a 10px margin around each job listing to offset the text within Work Experience and Certifications*/
+.job-description, .cert-vendor {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Applies a top margin to give some spacing between the Contact info and summary */
+.summary {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+/* Gives a bottom margin to work-history and certifications sections to provide some spacing */
+.work-history, .certifications {
+  margin-bottom: 30px;
+}
+
+/* Removes some of the default margin from the lists */
+ul {
+  margin-bottom: 5px;
+}
+
+/* Adds some bottom margin to the first row for each job listing to give some extra space */
+.job-heading {
+  margin-bottom: 10px
+}
